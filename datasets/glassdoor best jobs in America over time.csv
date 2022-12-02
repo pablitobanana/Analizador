@@ -1,0 +1,301 @@
+year,job,salary,satisfaction,job_openings,rank
+2015,Physician Assistant ,111376,3.5,45484,1
+2015,Software Engineer,98074,3.3,104828,2
+2015,Business Development Manager,94907,3.5,11616,3
+2015,Human Resources Manager,96443,3.6,8073,4
+2015,Finance Manager,122865,3.4,9728,5
+2015,Marketing Manager ,100130,3.4,14647,6
+2015,Database Administrator,97835,3.4,9790,7
+2015,Product Manager,113363,3.3,10294,8
+2015,Data Scientist,104476,3.8,3449,9
+2015,Sales Manager,121657,3.4,3982,10
+2015,Solutions Architect,121657,3.4,3982,11
+2015,Mechanical Engineer,73015,3.3,16065,12
+2015,QA Engineer,77499,3.2,26383,13
+2015,Business Analyst,74638,3.2,21337,14
+2015,Electrical Engineer,76803,3.3,10435,15
+2015,Network Engineer,87518,3.2,14092,16
+2015,Civil Engineer,73383,3.5,6120,17
+2015,Audit Manager,69271,3.9,4585,18
+2015,Physical Therapist,64806,3.2,27579,19
+2015,IT Project Manager,103710,3.2,5700,20
+2015,Client Services Manager,103736,3.7,2377,21
+2015,Supply Chain Manager,83795,3.4,3754,22
+2015,Mobile Developer ,79810,3.3,4651,23
+2015,Nurse Practitioner ,95171,3.1,15341,24
+2015,Sales Engineer,91318,3.2,6007,25
+2016,Data Scientist,116840,4.1,1736,1
+2016,Tax Manager,108000,3.9,1574,2
+2016,Solutions Architect,119500,3.5,2906,3
+2016,Engagement Manager,125000,3.8,1356,4
+2016,Mobile Developer,90000,3.8,2251,5
+2016,HR Manager,85000,3.7,3468,6
+2016,Physician Assistant,97000,3.5,3364,7
+2016,Product Manager,106680,3.3,6607,8
+2016,Software Engineer,95000,3.3,49270,9
+2016,Audit Manager,95000,3.9,1001,10
+2016,Analytics Manager,105000,3.7,982,11
+2016,Software Development Manager,135000,3.4,1199,12
+2016,Product Marketing Manager,115000,3.5,1111,13
+2016,Marketing Manager,90000,3.4,2560,14
+2016,QA Manager,85000,3.4,3749,15
+2016,Finance Manager,115000,3.3,1632,16
+2016,Business Development Manager,80000,3.4,2906,17
+2016,UX Designer,91800,3.6,863,18
+2016,Strategy Manager,130000,3.7,631,19
+2016,Technical Account Manager,69548,3.7,1160,20
+2016,Consultant,84000,3.4,1071,21
+2016,Construction Superintendent,78000,3.4,1054,22
+2016,Nurse Practitioner,99500,3.1,5624,23
+2016,Electrical Engineer,76900,3.3,2516,24
+2016,Software Architect,130000,3.4,653,25
+2017,Data Scientist,110000,4.4,4184,1
+2017,DevOps Engineer,110000,4.2,2725,2
+2017,Data Engineer,106000,4.3,2599,3
+2017,Tax Manager,110000,4.0,3317,4
+2017,Analytics Manager,112000,4.1,1958,5
+2017,HR Manager,85000,3.8,4339,6
+2017,Database Administrator,93000,3.8,2877,7
+2017,Strategy Manager,130000,4.3,1184,8
+2017,UX Designer,92500,4.0,1691,9
+2017,Solutions Architect,125000,3.7,2232,10
+2017,Marketing Manager,90000,3.7,3875,11
+2017,Occupational Therapist,72000,3.7,14897,12
+2017,Audit Manager,98000,3.8,1887,13
+2017,Electrical Engineer,78000,3.7,3643,14
+2017,Nurse Practitioner,100000,3.5,15634,15
+2017,Software Engineer,101000,3.5,17085,16
+2017,Corporate Recruiter,60000,4.2,2858,17
+2017,Supply Chain Manager,100000,3.9,1270,18
+2017,Finance Manager,116000,3.6,3142,19
+2017,Mechanical Engineer,76000,3.7,3383,20
+2017,Communications Manager,82000,4.0,1332,21
+2017,QA Manager,92000,3.7,2531,22
+2017,Controls Engineer,75400,3.9,1756,23
+2017,Nurse Manager,77000,3.6,6710,24
+2017,Compliance Manager,100000,3.9,1104,25
+2017,Mobile Developer,85000,3.7,2130,26
+2017,Systems Administrator,68000,3.7,4046,27
+2017,Executive Assistant,56000,3.8,3946,28
+2017,Technical Account Manager,66000,3.9,1968,29
+2017,Hardware Engineer,108000,3.9,954,30
+2017,Intelligence Analyst,62400,4.2,1605,31
+2017,Product Manager,107000,3.4,5536,32
+2017,Professor,70000,3.8,1955,33
+2017,Physician,200000,3.5,2610,34
+2017,Compensation Analyst,70000,4.1,1219,35
+2017,Civil Engineer,65200,3.8,2004,36
+2017,Research Engineer,92850,3.8,1006,37
+2017,Accounting Manager,82000,3.5,3392,38
+2017,Information Security Engineer,100000,3.7,1247,39
+2017,Manufacturing Engineer,70000,3.7,2504,40
+2017,Security Analyst,70000,3.7,2464,41
+2017,Business Operations Manager,93000,3.8,1009,42
+2017,UI Designer,80000,4.0,950,43
+2017,Pharmacy Manager,130000,3.5,2652,44
+2017,Supplier Quality Engineer,80150,4.0,862,45
+2017,National Sales Manager,90000,3.8,937,46
+2017,Business Intelligence Developer,83000,3.9,837,47
+2017,Dental Hygienist,66000,4.1,1050,48
+2017,Physical Therapist,70000,3.5,24579,49
+2017,Construction Project Manager,85000,3.6,1944,50
+2018,Data Scientist,110000,4.2,4524,1
+2018,DevOps Engineer,105000,4.0,3369,2
+2018,Marketing Manager,85000,4.0,6439,3
+2018,Occupational Therapist,74000,4.0,11903,4
+2018,HR Manager,85000,3.9,4458,5
+2018,Electrical Engineer,76000,3.9,5839,6
+2018,Strategy Manager,135000,4.2,1195,7
+2018,Mobile Developer,90000,4.1,1809,8
+2018,Product Manager,113000,3.7,7531,9
+2018,Manufacturing Engineer,72000,4.0,4241,10
+2018,Compliance Manager,96000,4.3,1222,11
+2018,Finance Manager,116000,3.8,2998,12
+2018,Risk Manager,97000,4.2,1209,13
+2018,Business Development Manager,75000,3.9,4060,14
+2018,Front End Engineer,100000,4.2,1122,15
+2018,Site Reliability Engineer,120000,4.1,1064,16
+2018,Mechanical Engineer,75000,3.8,5079,17
+2018,Analytics Manager,115000,3.9,1381,18
+2018,Tax Manager,110000,3.7,3309,19
+2018,Creative Manager,110000,4.3,824,20
+2018,Software Engineer,102500,3.6,29187,21
+2018,Hardware Engineer,115000,4.2,806,22
+2018,Corporate Recruiter,65000,4.3,2330,23
+2018,QA Manager,92000,3.8,1741,24
+2018,Physician Assistant,104000,3.6,5517,25
+2018,Database Administrator,94000,3.8,2370,26
+2018,UX Designer,90000,3.8,1963,27
+2018,Nursing Manager,84660,3.7,4209,28
+2018,Engagement Manager,115000,3.7,2169,29
+2018,Solutions Architect,125000,3.6,3325,30
+2018,Process Engineer,78000,3.8,3033,31
+2018,Reliability Engineer,92000,4.3,747,32
+2018,Data Engineer,100000,3.7,2816,33
+2018,Operations Manager,65000,3.8,13706,34
+2018,Speech Language Pathologist,72000,3.7,11573,35
+2018,Communications Manager,80000,3.9,1380,36
+2018,Audit Manager,100000,3.7,1951,37
+2018,Data Analyst,60000,3.9,4729,38
+2018,Systems Analyst,75000,3.7,2710,39
+2018,Facilities Manager,75000,3.8,2139,40
+2018,Strategic Account Manager,85000,4.1,808,41
+2018,Business Intelligence Developer,86000,3.9,882,42
+2018,Business Analyst,71000,3.6,9603,43
+2018,Accounting Manager,82000,3.6,3273,44
+2018,UI Developer,95000,3.8,1004,45
+2018,Executive Assistant,55000,3.9,4684,46
+2018,Management Consultant,110000,3.8,1024,47
+2018,Project Manager,80000,3.5,23274,48
+2018,Nurse Practitioner,100000,3.5,8510,49
+2018,HR Generalist,57120,3.9,2705,50
+2019,Data Scientist,108000,4.3,6510,1
+2019,Nursing Manager,83000,4.0,13931,2
+2019,Marketing Manager,82000,4.2,7395,3
+2019,Occupational Therapist,74000,4.0,17701,4
+2019,Product Manager,115000,3.8,11884,5
+2019,Devops Engineer,106000,4.1,4657,6
+2019,Program Manager,87000,3.9,14753,7
+2019,Data Engineer,100000,3.9,4739,8
+2019,HR Manager,85000,4.2,3908,9
+2019,Software Engineer,104000,3.6,49007,10
+2019,Mechanical Engineer,75000,3.9,5949,11
+2019,Physician Assistant,105000,3.7,9819,12
+2019,Sales Manager,65000,3.8,21695,13
+2019,Sales Engineer,90000,4.1,3145,14
+2019,Operations Manager,68000,3.8,18311,15
+2019,Strategy Manager,140000,4.0,2783,16
+2019,Security Engineer,102000,3.8,4683,17
+2019,Construction Manager,75000,4.3,3334,18
+2019,Speech Language Pathologist,72000,3.7,29467,19
+2019,Project Manager,75000,3.6,30107,20
+2019,Product Designer,100000,4.5,2158,21
+2019,Java Developer,85000,3.7,6636,22
+2019,Executive Assistant,60000,4.1,4858,23
+2019,Electrical Engineer,77000,3.7,7191,24
+2019,Finance Manager,118000,3.8,3747,25
+2019,Business Analyst,72000,3.7,13340,26
+2019,Solutions Architect,127900,3.6,6969,27
+2019,Recruiter,48000,4.1,9782,28
+2019,Business Development Manager,80000,3.7,6348,29
+2019,Dental Hygienist,67250,4.5,2805,30
+2019,Data Analyst,60000,3.9,5456,31
+2019,Nurse Practitioner,102000,3.5,18997,32
+2019,Applications Engineer,77000,4.0,2591,33
+2019,QA Manager,91250,4.1,1923,34
+2019,Risk Manager,100500,3.7,3924,35
+2019,Communications Manager,80000,4.2,2009,36
+2019,Physical Therapist,70000,3.6,34899,37
+2019,Facilities Manager,65000,4.0,3472,38
+2019,Systems Engineer,90000,3.5,16793,39
+2019,Customer Success Manager,65000,4.2,2601,40
+2019,Radiologic Technologist,48000,4.0,6115,41
+2019,Restaurant Manager,49000,3.8,21754,42
+2019,Software Engineering Manager,153000,4.0,1445,43
+2019,Software Developer,80000,3.5,11833,44
+2019,Safety Manager,71000,4.1,2180,45
+2019,UX Designer,89000,3.7,3333,46
+2019,Office Manager,42000,3.9,18681,47
+2019,Brand Manager,85000,4.3,1500,48
+2019,Software Development Manager,140000,4.2,1178,49
+2019,Systems Administrator,68000,3.6,8278,50
+2020,Front End Engineer,105240,3.9,13122,1
+2020,Java Developer,83589,3.9,16136,2
+2020,Data Scientist,107801,4.0,6542,3
+2020,Product Manager,117713,3.8,12173,4
+2020,DevOps Engineer,107310,3.9,6603,5
+2020,Data Engineer,102472,3.9,6941,6
+2020,Software Engineer,105563,3.6,50438,7
+2020,Speech Language Pathologist,71867,3.8,29167,8
+2020,Strategy Manager,133067,4.3,3515,9
+2020,Business Development Manager,78480,4.0,6560,10
+2020,Nursing Manager,85389,3.7,12320,11
+2020,HR Manager,83190,4.1,3966,12
+2020,Operations Manager,70189,3.8,19198,13
+2020,Salesforce Developer,81175,4.2,3639,14
+2020,Finance Manager,120644,3.8,4091,15
+2020,Accounting Manager,85794,4.0,3589,16
+2020,Program Manager,87005,3.6,19280,17
+2020,Applications Engineer,76854,3.7,9550,18
+2020,Clinic Manager,70000,3.9,5768,19
+2020,Physical Therapist,71483,3.6,28886,20
+2020,Project Manager,77396,3.6,37764,21
+2020,Electrical Engineer,77035,3.7,7756,22
+2020,Occupational Therapist,74339,3.6,14838,23
+2020,Facilities Manager,70160,3.8,5842,24
+2020,Sales Manager,70489,3.8,6272,25
+2020,Business Analyst,73022,3.6,13181,26
+2020,Systems Engineer,92225,3.5,16850,27
+2020,Compliance Officer,84784,3.7,5002,28
+2020,Scrum Master,100000,3.8,2894,29
+2020,Customer Success Manager,66326,4.2,3603,30
+2020,Risk Manager,101468,3.7,4296,31
+2020,Software Developer,80429,3.5,31909,32
+2020,Cloud Engineer,110600,3.6,4668,33
+2020,Product Designer,102000,4.2,1946,34
+2020,Realtor,50467,4.2,7468,35
+2020,Mechanical Engineer,75700,3.7,5714,36
+2020,Corporate Recruiter,65607,4.4,3279,37
+2020,UX Designer,90478,3.8,3308,38
+2020,QA Engineer,81632,3.8,3321,39
+2020,Financial Analyst,71334,3.6,9241,40
+2020,Physician Assistant,109585,3.6,4537,41
+2020,Sales Engineer,87608,3.8,2854,42
+2020,Civil Engineer,65704,3.8,5270,43
+2020,Data Analyst,62973,3.7,6848,44
+2020,EHS Specialist,76854,3.7,3674,45
+2020,Automation Engineer,85456,3.8,2658,46
+2020,Research Scientist,85611,3.5,7257,47
+2020,Design Manager,120549,4.1,1234,48
+2020,Network Engineer,71028,3.6,6138,49
+2020,Healthcare Consultant,79065,3.9,1967,50
+2021,Java Developer,90830,4.2,10103,1
+2021,Data Scientist,113736,4.1,5971,2
+2021,Product Manager,121107,3.9,14515,3
+2021,Enterprise Architect,131361,4.0,10069,4
+2021,Devops Engineer,110003,4.0,6904,5
+2021,Information Security Engineer,110000,4.0,5621,6
+2021,Business Development Manager,82182,4.1,8827,7
+2021,Mobile Engineer,94301,4.1,4631,8
+2021,Software Engineer,110245,3.8,40564,9
+2021,Dentist,134122,4.0,4315,10
+2021,Front End Engineer,81360,4.0,6978,11
+2021,HR Manager,87852,4.2,3818,12
+2021,Strategy Manager,123207,4.2,2647,13
+2021,Salesforce Developer,89098,4.2,3346,14
+2021,Automation Engineer,86445,4.1,4123,15
+2021,Back End Engineer,90757,4.3,3001,16
+2021,Machine Learning Engineer,104837,4.1,2977,17
+2021,Product Marketing Manager,120267,4.1,2998,18
+2021,Tax Manager,111046,4.0,4052,19
+2021,Program Manager,80066,3.9,18963,20
+2021,Consultant,83069,3.9,9841,21
+2021,Solutions Engineer,90942,4.2,2654,22
+2021,Cloud Engineer,105565,3.9,5482,23
+2021,UX Designer,90881,4.0,4122,24
+2021,Product Designer,104120,4.1,2420,25
+2021,Sales Manager,72560,3.9,16458,26
+2021,Clinical Nurse,74031,4.0,7702,27
+2021,Clinic Manager,74562,4.0,5132,28
+2021,Business Analyst,76201,3.9,13677,29
+2021,Technical Program Manager,142379,4.0,2618,30
+2021,Marketing Manager,68042,3.9,12811,31
+2021,Project Manager,80562,3.8,34362,32
+2021,Construction Superintendent,80738,3.9,6438,33
+2021,QA Engineer,85000,4.0,2654,34
+2021,Data Analyst,70000,3.9,7748,35
+2021,Realtor,52022,4.4,8148,36
+2021,Electrical Engineer,80033,3.9,6255,37
+2021,Attorney,86071,3.9,3954,38
+2021,Operations Manager,70000,3.8,23181,39
+2021,Scrum Master,105000,4.0,2331,40
+2021,Physician Assistant,107238,3.8,5601,41
+2021,Technical Project Manager,103633,3.9,3043,42
+2021,Tax Accountant,67028,3.9,8829,43
+2021,Risk Manager,94488,3.9,3688,44
+2021,Finance Manager,110091,3.7,6623,45
+2021,Corporate Recruiter,70959,4.4,2390,46
+2021,Customer Success Manager,66041,4.1,4046,47
+2021,Civil Engineer,65612,4.0,4705,48
+2021,Financial Analyst,70959,3.9,6705,49
+2021,Mechanical Engineer,75785,3.9,5277,50
