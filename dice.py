@@ -74,16 +74,13 @@ y = 0
 for cadena in lista_final_d:
     if "devops" in cadena.lower():
         y+=1
-        print(cadena)
+        #  print(cadena)
 
 print(y)
-#  n_lista_dice = ''
-#  for lista_dice[x] in lista_dice:
-#      cambiar = '-/)'
-#      eliminar = '('
 
+contador_g = Counter(lista_final_d) # Lista de palabras con cuantas veces se repiten cada una
 
-
-
+las_mas_repetidas_g = OrderedDict(contador_g.most_common(340)) # ordena las 5 palabras que mas se repiten
+print("\n",las_mas_repetidas_g)
 
 
