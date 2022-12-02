@@ -2,18 +2,10 @@ import re
 from csv import reader
 from nltk.tokenize import word_tokenize #exportar la funcion para tokenizar
 from nltk.corpus import stopwords #libreria de las stopwords
-#  from wordcloud import WordCloud, STOPWORDS #otra libreria para stopwords
 from collections import Counter #libreria para contar las palabras y cuantas veces se repiten
 from collections import OrderedDict # libreria para ordenar las palabras
 import palabras_vacias as pv
 
-def cleaning(cadena):
-    eliminar = '()[]/'
-    n_cadena = ''
-    for caracter in cadena:
-        if caracter not in eliminar:
-            n_cadena += caracter
-    return n_cadena
 
 lista_g = ''
 
