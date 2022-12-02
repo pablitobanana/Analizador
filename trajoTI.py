@@ -64,11 +64,25 @@ for palabra in nuevalista: # recorremos cada palabra de los tokens
     if palabra not in  palabras_vacias: # si la palabra NO ES una stopword se guardara en la lista
        lista_final.append(palabra)
 
-
 #  print(lista_final)
+
+opcion = ''
+while opcion !="fin":
+    opcion = input("Ingrese palabra clave a buscar(para salir escriba fin): ").lower()
+    if opcion !="fin":
+        y = 0
+        for cadena in lista_final:
+            if opcion in cadena.lower():
+                y+=1
+                print(cadena)
+    else: continue
+
+    print("\n\nconcidencias encontradas: ",y,"\n")
 
 
 contador = Counter(lista_final) # Lista de palabras con cuantas veces se repiten cada una
 
 las_mas_repetidas = OrderedDict(contador.most_common(100)) # ordena las 5 palabras que mas se repiten
-print("\n",las_mas_repetidas)
+opcion = input("Quiere ver las palabras más repetidas (si,no): ").lower()
+if opcion == "si":
+    print("\n",las_mas_repetidas)

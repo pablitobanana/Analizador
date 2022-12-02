@@ -14,7 +14,7 @@ with open('datasets\job_skills.csv', encoding='utf-8') as archivo_en_memoria:
     lista_g = list(csv)
     lista_g.pop(0)
 
-print(len(lista_g))
+print("Cantidad de registros",len(lista_g))
 lista_google=''
 for titulo in lista_g:
     lista_google += titulo[1] + ", "
@@ -78,18 +78,24 @@ for palabra in lista_google: # recorremos cada palabra de los tokens
 
 #  print(lista_final_g)
 
-y = 0
-for cadena in lista_final_g:
-    if "laravel" in cadena.lower():
-        y+=1
-        print(cadena)
+opcion = ''
+while opcion !="fin":
+    opcion = input("Ingrese palabra clave a buscar(para salir escriba fin): ").lower()
+    if opcion !="fin":
+        y = 0
+        for cadena in lista_final_g:
+            if opcion in cadena.lower():
+                y+=1
+                print(cadena)
+    else: continue
 
-print(y)
+    print("\n\nconcidencias encontradas: ",y,"\n")
 
 contador_g = Counter(lista_final_g) # Lista de palabras con cuantas veces se repiten cada una
-
 las_mas_repetidas_g = OrderedDict(contador_g.most_common(340)) # ordena las 5 palabras que mas se repiten
-#  print("\n",las_mas_repetidas_g)
+opcion = input("Quiere ver las palabras más repetidas (si,no): ").lower()
+if opcion == "si":
+    print("\n",las_mas_repetidas_g)
 #  while x < len_g:
 #      lista_google[x] = cleaning(lista_google[x]) #dejamos solo palabras por medio de exprecion regular
 #      cadena = lista_google[x]

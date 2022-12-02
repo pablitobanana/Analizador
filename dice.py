@@ -13,7 +13,7 @@ with open('datasets\dice_com-job_us_sample.csv', encoding='utf-8') as archivo_en
     lista_d = list(csv)
     lista_d.pop(0)
 
-#  print(len(lista_d))
+print("Cantidad de registros",len(lista_d))
 lista_dice=''
 for titulo in lista_d:
     lista_dice += titulo[6] + ", "
@@ -25,6 +25,8 @@ while x< len( lista_dice ):
     if lista_dice[x] == "(":
         if lista_dice[x-1] != " ":
             n_lista_dice += " ,"
+    elif lista_dice[x] == "|":
+            n_lista_dice += ","
     elif lista_dice[x] == "-" or lista_dice[x] == "/":
         if lista_dice[x-1] == " " or lista_dice[x+1] == " ":
             n_lista_dice += ","
@@ -70,17 +72,23 @@ for palabra in lista_dice: # recorremos cada palabra de los tokens
     if palabra not in  palabras_vacias: # si la palabra NO ES una stopword se guardara en la lista
        lista_final_d.append(palabra)
 
-y = 0
-for cadena in lista_final_d:
-    if "devops" in cadena.lower():
-        y+=1
-        #  print(cadena)
+opcion = ''
+while opcion !="fin":
+    opcion = input("Ingrese palabra clave a buscar(para salir escriba fin): ").lower()
+    if opcion !="fin":
+        y = 0
+        for cadena in lista_final_d:
+            if opcion in cadena.lower():
+                y+=1
+                print(cadena)
+    else: continue
 
-print(y)
+    print("\n\nconcidencias encontradas: ",y,"\n")
 
 contador_g = Counter(lista_final_d) # Lista de palabras con cuantas veces se repiten cada una
-
 las_mas_repetidas_g = OrderedDict(contador_g.most_common(340)) # ordena las 5 palabras que mas se repiten
-print("\n",las_mas_repetidas_g)
+opcion = input("Quiere ver las palabras más repetidas (si,no): ").lower()
+if opcion == "si":
+    print("\n",las_mas_repetidas_g)
 
 
