@@ -1,6 +1,4 @@
-import re
 from csv import reader
-from nltk.tokenize import word_tokenize #exportar la funcion para tokenizar
 from nltk.corpus import stopwords #libreria de las stopwords
 from collections import Counter #libreria para contar las palabras y cuantas veces se repiten
 from collections import OrderedDict # libreria para ordenar las palabras
@@ -21,16 +19,6 @@ for titulo in lista_g:
 
 #  print(lista_google + "\n \n")
 
-#  x = 0
-#  len_g = len(lista_google)
-
-#  eliminar = '()[],."""?¿¡!:;_-%/$%+=&1234567890#'
-#  for cadena in nuevalista: #pasamos un ciclo checando caracter por caracter del texto del archivo
-#      for caracter in cadena:
-#          if caracter not in eliminar: #si se encuentra un caracter que pertenece a nuestra parte de eliminar, como un numero
-#              texto_primer_limpiesa +=caracter
-#      cadena = texto_primer_limpiesa
-#      texto_primer_limpiesa = ""
 n_lista_google = ''
 for caracter in lista_google:
     cambiar = '('
@@ -73,7 +61,7 @@ palabras_vacias.update(pv.pv_google)
 lista_final_g = [] #hacemos una lista donde vamos a guardar las palabras con valor
 
 for palabra in lista_google: # recorremos cada palabra de los tokens
-    if palabra not in  palabras_vacias: # si la palabra NO ES una stopword se guardara en la lista
+    if palabra not in palabras_vacias: # si la palabra NO ES una stopword se guardara en la lista
        lista_final_g.append(palabra)
 
 #  print(lista_final_g)
@@ -96,14 +84,3 @@ las_mas_repetidas_g = OrderedDict(contador_g.most_common(340)) # ordena las 5 pa
 opcion = input("Quiere ver las palabras más repetidas (si,no): ").lower()
 if opcion == "si":
     print("\n",las_mas_repetidas_g)
-#  while x < len_g:
-#      lista_google[x] = cleaning(lista_google[x]) #dejamos solo palabras por medio de exprecion regular
-#      cadena = lista_google[x]
-#      lista_google[x] = cadena[1:]
-    #  x+=1
-
-#  print(lista_google)
-
-
-
-
